@@ -1,0 +1,108 @@
+.MuiTablePagination-root {
+  color: white;
+}
+.body-header {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body-container {
+  margin: 1em 0;
+}
+.btn-inactive {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1em;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.btn-active {
+  font-weight: bold;
+  display: inline-block;
+  padding: 1em;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+}
+.btn-search {
+  display: none;
+
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.clear-btn {
+  cursor: pointer;
+  width: 8em;
+  background-color: #db4437;
+  height: 3em;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.clear-btn-inactive {
+  cursor: pointer;
+  display: none;
+  width: 8em;
+  background-color: #db4437;
+  height: 3em;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.advanced-btn {
+  cursor: pointer;
+  width: 8em;
+  height: 3em;
+  position: relative;
+  bottom: 0.6em;
+  background-color: #8fd163;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.advanced-btn-inactive {
+  display: none;
+  cursor: pointer;
+  width: 8em;
+  height: 3em;
+  position: relative;
+  bottom: 0.6em;
+  background-color: #8fd163;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.body-container {
+  padding: 1em;
+  background-color: #666666;
+}
+
+.searchbox {
+  margin: 0 1em;
+  text-align: center;
+  padding: none;
+  height: 3em;
+  border: none;
+  border-radius: 5px;
+}
+
+.datagrid-footer {
+  border: none;
+  color: white;
+}
+.dialog-input {
+  padding: 1em;
+  width: stretch;
+}
+.dialog-btn {
+  padding: 0.5em;
+  width: 100%;
+}
+.edit-input {
+  padding: 0.5em;
+}

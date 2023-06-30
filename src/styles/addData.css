@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 0.8fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em 1em;
+    grid-template-areas:
+      "inp1 inp2 inp2 inp3 inp3"
+      "inp4 inp5 inp6 inp7 inp8";
+  }
+  
+  .inp1 {
+    grid-area: inp1;
+  }
+  
+  .inp2 {
+    grid-area: inp2;
+  }
+  
+  .inp3 {
+    grid-area: inp3;
+  }
+  
+  .inp4 {
+    grid-area: inp4;
+  }
+  
+  .inp5 {
+    grid-area: inp5;
+  }
+  
+  .inp6 {
+    grid-area: inp6;
+  }
+  
+  .inp7 {
+    grid-area: inp7;
+  }
+  
+  .inp8 {
+    grid-area: inp8;
+  }
+  
+  .inputbox {
+    height: 2em;
+    padding: 1em;
+    width: fill;
+  }
+  
+  .form-button {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: 1.23fr 1.205fr;
+    grid-template-rows: 1fr;
+    gap: 1em 0.5em;
+    grid-template-areas: "btn1 btn2";
+    width: 100%;
+  }
+  
+  .btn1 {
+    grid-area: btn1;
+  }
+  
+  .btn2 {
+    grid-area: btn2;
+  }
+  
+  .form-btn {
+    height: 3em;
+    padding: 0.5em;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #fc7500;
+  }
+  
+  .button2 {
+    background-color: #db4437;
+  }
+  
+  .button1:hover,
+  .button2:hover {
+    border: 1px solid white;
+  }
+  

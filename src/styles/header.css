@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: start;
+  }
+  
+  .upper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .inv {
+    margin-left: 1em;
+    color: #db4437;
+  }
+  
+  .logocompany img {
+    position: absolute;
+    left: 0;
+    margin: 1em 0 0 1em;
+  }
+  
+  .logohrc img {
+    margin-top: 1em;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    /* Styles for screens up to 767px wide */
+    .logocompany img,
+    .logohrc img {
+      position: static;
+      margin: 1em auto;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for screens between 768px and 1023px wide */
+    .header {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .upper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .logocompany img,
+    .logohrc img {
+      position: unset;
+      margin: 1em;
+    }
+  }
+  
